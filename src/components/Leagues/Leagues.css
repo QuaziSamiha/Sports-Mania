@@ -1,0 +1,8 @@
+.league{
+    height: 300px;
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px
+}
