@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Leagues from '../Leagues/Leagues';
+import './Home.css';
+import Image from './stadium-img.jpg';
 
 const Home = () => {
 
@@ -17,10 +19,15 @@ const Home = () => {
         <div>
             {/* <h4>this is home</h4>
             <h5>total leagues: {leagues.length}</h5> */}
-
-            {
-                leagues.map((league, index) => <Leagues key={index} league={league}></Leagues>)
-            }
+            <div className="img-part">
+                <img src={Image} alt="" />
+                <h1 className='img-heading'><b>Sports Mania</b></h1>
+            </div>
+            <div className="all-leagues">
+                {
+                    leagues.map((league, index) => <Leagues key={index} league={league}></Leagues>)
+                }
+            </div>
         </div>
     );
 };

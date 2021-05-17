@@ -1,6 +1,7 @@
 .league{
     height: 300px;
     width: 200px;
+    background-color: whitesmoke;
     border: 1px solid lightgray;
     border-radius: 10px;
     margin: 10px;
