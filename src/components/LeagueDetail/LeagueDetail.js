@@ -23,7 +23,7 @@ const LeagueDetail = () => {
             .then(res => res.json())
             .then(data => setLeagueDetail(data.leagues[0]))
         // .then(data => console.log(data.leagues))
-    }, [])
+    }, [leagueId])
     // console.log(leagueDetail);
 
     const { strLeagueAlternate, dateFirstEvent, strCountry, strSport, strGender, strLogo, strDescriptionFR, strTwitter, strWebsite } = leagueDetail;
