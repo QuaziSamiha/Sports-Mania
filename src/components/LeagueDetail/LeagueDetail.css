@@ -1,0 +1,50 @@
+.background-img img {
+    height: 300px;
+    width: 100%
+}
+
+.background-img {
+    position: relative
+}
+
+.logo img {
+    height: 100px;
+    width: 200px
+}
+
+.logo {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    width: 100%;
+    text-align: center
+}
+
+.team-info {
+    display: flex;
+    background-color: skyblue;
+    border: 1px solid rgb(66, 76, 216);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px 20%
+}
+
+.info-div {
+    padding: 15px
+}
+
+.team-img {
+    margin-left: 40%;
+    padding: 15px
+}
+
+.team-img img {
+    height: 200px;
+    width: 350px
+}
+
+.league-description {
+    margin: 80px 20%;
+    color: whitesmoke
+}

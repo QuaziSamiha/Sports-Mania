@@ -1,9 +1,27 @@
-.league{
+.all-leagues {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 1em
+}
+
+.league {
     height: 300px;
-    width: 200px;
+    width: 320px;
     background-color: whitesmoke;
     border: 1px solid lightgray;
     border-radius: 10px;
-    margin: 10px;
+    margin-left: 10px;
     padding: 10px
+}
+
+.logo-div{
+    height: 60%
+}
+
+.league .info-div{
+    text-align: center
+}
+
+.league .info-div p{
+    color: gray
 }
