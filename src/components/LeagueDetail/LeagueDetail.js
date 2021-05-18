@@ -4,6 +4,10 @@ import backgroundImage from '../../images/stadium-img.jpg';
 import './LeagueDetail.css';
 import MaleTeam from '../../images/male.png';
 import FemaleTeam from '../../images/female.png';
+import FoundIcon from '../../images/found.png';
+import Flag from '../../images/flag.png';
+import Sports from '../../images/football.png';
+import GenderSign from '../../images/gender-sign .png';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee, faFacebook } from '@fortawesome/free-solid-svg-icons'
 
@@ -36,10 +40,10 @@ const LeagueDetail = () => {
             <div className='team-info'>
                 <div className="info-div">
                     <h4><b>{strLeagueAlternate}</b></h4>
-                    <p><b> Founded: {dateFirstEvent}</b></p>
-                    <p><b>Country: {strCountry}</b></p>
-                    <p><b>Sport Type: {strSport}</b></p>
-                    <p><b>Gender: {strGender}</b></p>
+                    <img src={FoundIcon} alt="" /> <b> Founded: {dateFirstEvent}</b> <br /> <br />
+                    <img src={Flag} alt="" /> <b>Country: {strCountry}</b> <br /> <br />
+                    <img src={Sports} alt="" /> <b>Sport Type: {strSport}</b> <br /> <br />
+                    <img src={GenderSign} alt="" /> <b>Gender: {strGender}</b>
                 </div>
                 <div>
                     {gender}

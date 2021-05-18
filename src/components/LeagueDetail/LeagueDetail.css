@@ -23,8 +23,8 @@
 
 .team-info {
     display: flex;
-    background-color: skyblue;
-    border: 1px solid rgb(66, 76, 216);
+    background-color: rgb(6, 97, 133);
+    border: 1px solid  rgb(6, 97, 133);
     border-radius: 10px;
     padding: 20px;
     margin: 50px 20%
@@ -32,6 +32,11 @@
 
 .info-div {
     padding: 15px
+}
+
+.info-div img {
+    height: 20px;
+    width: 20px
 }
 
 .team-img {

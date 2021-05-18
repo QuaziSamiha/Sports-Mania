@@ -17,8 +17,8 @@ const Home = () => {
     // console.log(leagues);
     return (
         <div className='home'>
-            {/* <h4>this is home</h4>
-            <h5>total leagues: {leagues.length}</h5> */}
+            {/* <h4>this is home</h4> */}
+            {/* <h5>total leagues: {leagues.length}</h5> */}
             <div className="img-part">
                 <img src={Image} alt="" />
                 <h1 className='img-heading'><b>Sports Mania</b></h1>
