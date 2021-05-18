@@ -5,7 +5,7 @@
 }
 
 .league {
-    height: 320px;
+    height: 200px;
     width: 300px;
     background-color: whitesmoke;
     border: 1px solid lightgray;
@@ -15,9 +15,9 @@
     padding: 10px
 }
 
-.logo-div{
+/* .logo-div{
     height: 60%
-}
+} */
 
 .league .info-div{
     text-align: center
@@ -25,4 +25,8 @@
 
 .league .info-div p{
     color: gray
+}
+
+.league .info-div h6{
+    color: black
 }

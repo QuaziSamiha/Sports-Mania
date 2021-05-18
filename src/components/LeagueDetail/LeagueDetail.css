@@ -31,6 +31,7 @@
 }
 
 .info-div {
+    color: white;
     padding: 15px
 }
 
@@ -52,4 +53,14 @@
 .league-description {
     margin: 80px 20%;
     color: whitesmoke
+}
+
+.social-media{
+    display: flex;
+    margin: 30px 40%
+}
+
+.social-media a img {
+    height: 70px;
+    width: 70px
 }

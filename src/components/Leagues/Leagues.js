@@ -20,9 +20,8 @@ const Leagues = (props) => {
     return (
         <div className="all-leagues">
             <div className='league'>
-                <div className="logo-div">
-
-                </div>
+                {/* <div className="logo-div">
+                </div> */}
                 <div className="info-div">
                     <h6>{strLeague}</h6>
                     <p><small>Sport Type: {strSport}</small></p>
